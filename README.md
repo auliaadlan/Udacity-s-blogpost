@@ -19,9 +19,9 @@ The dataset contains 15 columns:
 
 The dataset was manually inputted by a lot of people with various background, so there must be some invalid data.
 These are some condition that need to keep, such as:
-- ws_access_h + no_ws_access_h must be household
-- ws_access_p + no_ws_access_p must be population
-- hp_toilet_h + hsp_toilet_h + comm_toilet_h + no_toilet_h must be household
+- ws_access_h + no_ws_access_h must be equal to household
+- ws_access_p + no_ws_access_p must be equal to population
+- hp_toilet_h + hsp_toilet_h + comm_toilet_h + no_toilet_h must be equal to household
 - all value >= 0
 
 If there are some data that don't meet the condition, it is better to drop the row.
